@@ -1,0 +1,37 @@
+{
+    "port": 3041,
+    "hostAddress": "172.16.6.52:3042/",
+    "databaseHost": "localhost",
+    "databasePort": "27017",
+    "databaseName": "restaurant",
+    "jwtsecret": "rishabh",
+    "jwtresetsecret": "rishabh",
+    "nodemailer": {
+      "service": "gmail",
+      "email": "mobiloitte.node@gmail.com",
+      "password": "wdbakhorlxmmqrhg"
+    },
+    "jwtOptions": {
+      "expiresIn": "24h"
+    },
+    "emptra": {
+      "secretKey": "G1cjS3jtUXwkh1R1CeCk3Pf1CU30vakNmLRHwaCQokOULaLUHse4TZ7cCeKzLBbaA",
+      "clientId": "a43420ce52ac74bfb0d702aca23ab4fc:846d0da1d5bab61868fca9df834a43c9",
+      "Cookie": "AWSALB=tBdxo2BvyW+ewEyT6iWQVqlPgaXG7An9+J36Mgu2dfX05VRG0sulnsPQTsbZfXH7Y1CqCx7J4XkM0Vlm9VxT6iY3pzT3kXV+oVDEhXfOS5YbT57FTzyIk9GNtjsj; AWSALBCORS=tBdxo2BvyW+ewEyT6iWQVqlPgaXG7An9+J36Mgu2dfX05VRG0sulnsPQTsbZfXH7Y1CqCx7J4XkM0Vlm9VxT6iY3pzT3kXV+oVDEhXfOS5YbT57FTzyIk9GNtjsj"
+    },
+    "swaggerDefinition": {
+      "info": {
+        "title": "Code Reusable API Docs",
+        "version": "2.0",
+        "description": "Code Reusable API Docs"
+      },
+      "basePath": "/api/v1",
+      "securityDefinitions": {
+        "tokenauth": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header"
+        }
+      }
+    }
+  }
